@@ -9,20 +9,6 @@ const Home =()=>{
     )
 }
 
-const Footer =()=>{
-    const MyComponent =()=>{
-        return (
-            <div>
-            <h1> Hii I am Insider Compoent </h1>
-            </div>
-        )
-    }
-    return (
-        <>
-           <h1> Hii I am Footer </h1>
-           <MyComponent/>
-        </>
-    )
-}
 
-export  {Home,Footer};
+
+export  {Home};
