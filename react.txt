@@ -7,19 +7,24 @@ Folder Structure
 Css --> internal , Inline , Exteral CSS 
 Dynamic JS in React 
 Components and It's Type
-Props 
+Input Value : 
+Props : Props is Used to Pass Data from Parent Component to child Componet in React
+Props is Inmutable we cannot change the value of props 
+Props is Read only 
+
+
 States 
 Events
-Conditional Rendering 
+Conditional Rendering   --> 1
 React List 
-Forms in React
-React Router 
+Forms in React  --> 2
+React Router  --> 3
 React CSS 
 
-Hooks
+Hooks -->
 API 
 Function Components 
-State Management 
+State Management  --> 
 
 
 
@@ -34,3 +39,57 @@ CSS will Not Import Automatically
 Write Complete File Name with Ext 
 Make sure CSS File Path should be correct 
 The Way to Write External CSS in react is same like our HTML 
+
+
+
+Data Flow in React 
+
+Unidirection --> One Way Data Flow --> Parent Component to Child Component , Props 
+Birectional --> Two Way Data Flow --> Child Component to Parent Component, Parent Component to Child Component --> Props, State Management Component Library 
+
+
+
+
+
+Props : By Using Props You Can Pass Any Data Type \
+
+
+
+Key : Key Props in React is used for Uniquely identification of React Element 
+
+Components Life Cycle 
+1. Component Initialize 
+2. Component Did Mount 
+3. Component Did Update 
+4. Component Did Unmount  
+
+
+
+Condtional rendering : condition? true:false
+
+
+
+Routing in React : react-router-dom  we need to install this packges to define Routing in React 
+BrowerRouter --> I will Use to Execute our React Routing on Brower 
+Routes --> Routes will be executed all Wrapped Route in Routing 
+Route --> It will Use to Define Execution Path for Perticular Component
+
+
+Link --> This Component is Provided By React Router Dom to use Routing and create Single Page Web Application 
+
+
+Hooks i React 
+1. useState 
+2. useEffect 
+3. useRef
+4. useMemo 
+5 . useCallBack
+6. useContext
+7. useId
+
+
+useSate -->
+const [age,setAge]=useState(0)
+age -->It is Called State
+setAge-->Callback use to Change or Update State
+useState -->It is use to creeate State or Define Default Value
