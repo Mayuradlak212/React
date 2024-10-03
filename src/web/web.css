@@ -1,0 +1,42 @@
+.nav-bar{
+    background-color: blue;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    display: flex;
+    list-style: none;
+}
+
+.nav-bar .nav-items{
+    display: flex;
+}
+.nav-bar .nav-items li{
+    padding: 5px;
+}
+.nav-bar a{
+    color:white;
+text-decoration:none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    height: 400px;
+    width: 500px;
+    padding: 20px;
+    background-color: grey;
+}
+form input{
+    padding: 10px;
+    margin: 15px;
+}
+form button {
+    color: white;
+    background-color: chartreuse;
+ text-align: center;
+ padding: 10px;
+ outline: none;
+    cursor: pointer;
+}
+

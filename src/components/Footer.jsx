@@ -5,12 +5,13 @@ function Footer(props) {
   console.log("Array props ", array);
   return (
     <div>
-      <h1 key={1}> My Name is : {props.student.name} </h1>
-      <h1 key={2}> My College Name is : {props.student.college} </h1>
-      <h1 key={5}> My Country Name is : {props.student.country} </h1>
+      <h1> Hii Welcome to Footer</h1>
+      <h1 key={1}> My Name is : </h1>
+      <h1 key={2}> My College Name is :  </h1>
+      <h1 key={5}> My Country Name is :  </h1>
       <h3>Hii I am Updating </h3>
 
-      {array.map((element, index) => {
+      {/* {array.map((element, index) => {
         return (
           <p key={index}>
             Index : {index}  {" "}
@@ -18,7 +19,7 @@ function Footer(props) {
             <br />  {" "}
           </p>
         );
-      })}
+      })} */}
     </div>
   );
 }
