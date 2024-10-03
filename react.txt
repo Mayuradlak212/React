@@ -23,7 +23,7 @@ React CSS
 
 Hooks -->
 API 
-Function Components 
+Function Components --> Done
 State Management  --> 
 
 
@@ -88,8 +88,32 @@ Hooks i React
 7. useId
 
 
+
+Hooks --> YOu cannot use  Hook in class Based Component ,
+--> You cannot use one Hook another Any Hook 
+--> Hook Always Declear or Imported on Top 
 useSate -->
 const [age,setAge]=useState(0)
 age -->It is Called State
 setAge-->Callback use to Change or Update State
 useState -->It is use to creeate State or Define Default Value
+
+
+useEffect  --> useEffect is used to Perporm any State Specific task or init Task 
+1-- Application Start 
+2. When Application Refresh 
+3. Dependancy Updation 
+
+
+useRef --> This Hook is used to Target Any Element from DOM Directly It will give you full access of DOM 
+
+
+State Management 
+
+useMemo --> It is used to Increase Performance of our Web Application
+
+
+
+Package --> Command to Install Package in React --> npm install react-toastify
+ToastContainer --> Import the Container and Include in Current File 
+fetch API --> This Function is used to fetch the API from Server for all Method 
